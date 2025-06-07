@@ -1,0 +1,90 @@
+.container-contact {
+  display: flex;
+  flex-direction: row;
+  max-width: 1400px;
+  margin: 40px auto;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+/* LEFT SIDE*/
+
+.contact-leftside  {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contactimg.png);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  width: 680px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+  color: white;
+}
+  
+.contact-leftside p {
+ margin-top: 250px;
+ padding-top: 80px;
+ font-size: 1.3rem;
+ font-weight: 500;
+}
+
+
+/* RIGHT SIDE*/
+
+.contact-rightside .map-info iframe {
+  border: none;
+  width: 680px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+
+
+
+
+
+/* MEDIAQUERIS*/
+@media only screen and (min-width: 320px) and (max-width: 500px){
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-contact .contact-leftside {
+    width: 300px;
+    max-width: 500px;
+    height: 400px;
+  }
+  .container-contact .contact-leftside p {
+    padding-top: 30px;
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+
+  .contact-rightside .map-info {
+    width: 300px;
+    max-width: 500px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .contact-rightside .map-info iframe {
+    width: 300px;
+    max-width: 500px;
+    height: 400px;
+  }
+
+
+/* LEFT SIDE*/
+
+
+
+
+
+/* LEFT SIDE*/
