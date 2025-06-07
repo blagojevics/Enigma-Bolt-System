@@ -153,7 +153,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 25px
   }
 
   .gallery > img {
