@@ -211,7 +211,7 @@ i {
     position: fixed;
     top: 0;
     right: 0;
-    height: 320px;
+    height: 300px;
     width: 60%;
     background-color: #fff;
     box-shadow: -2px 0 10px rgba(0,0,0,0.2);
@@ -240,7 +240,7 @@ i {
   nav .navbar-items a {
     width: 100%;
     display: block;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   /* Show hamburger on small screens */
