@@ -291,52 +291,27 @@ i {
   }
 
  
+span {
+    display: none
+  }
+
   .link-map {
-    max-width: 35px;
+    width: 40px;
     border-radius: 200px;
-    text-indent: -9999px;     /* visually hide the text */
-    position: relative;
-  }
-
-  .link-map i {
-    margin-left: 1.7px;
-    text-indent: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .link-tel {
-    max-width: 35px;
-    border-radius: 200px;
-    text-indent: -9999px;     /* visually hide the text */
-    position: relative;
-  }
-
-  .link-tel i {
-    margin-left: 1.7px;
-    text-indent: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
   }
 
   .link-mail {
-    max-width: 35px;
+    width: 40px;
     border-radius: 200px;
-    text-indent: -9999px;     /* visually hide the text */
-    position: relative;
   }
 
-  .link-mail i {
-    margin-left: 1.7px;
-    text-indent: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  .link-tel {
+    width: 40px;
+    border-radius: 200px;
+  }
+
+  i {
+    margin-left: 4.5px;
   }
 
   .footer p:last-child {
