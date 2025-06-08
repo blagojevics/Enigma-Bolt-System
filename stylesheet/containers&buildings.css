@@ -119,4 +119,8 @@ h2 {
     align-items: center;
   }
 
+  .gallery {
+    padding-right: 8px;
+  }
+
 }
