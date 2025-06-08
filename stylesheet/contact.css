@@ -56,7 +56,10 @@
   .container-contact {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-botoom: 5px;
   }
   .container-contact .contact-leftside {
     width: 300px;
