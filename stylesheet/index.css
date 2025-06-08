@@ -133,6 +133,13 @@ a {
   max-width: 760px;
 }
 
+  .right-upperside p, h2 {
+  padding-right: 30px;
+}
+.right-lowerside p, h2 {
+  padding-right: 30px;
+}
+
 .container-hero-rightside .right-upperside, 
 .container-hero-rightside .right-lowerside {
   display: flex;
